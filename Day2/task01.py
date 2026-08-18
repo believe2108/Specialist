@@ -8,7 +8,7 @@ async def wait_random(num: int) -> None:
     print(f"Задача корутина {num} завершилась через {delay} секунд")
 
 
-async def main():
+async def main() -> None:
     coro1 = asyncio.create_task(wait_random(1))
     await asyncio.gather(wait_random(2),coro1,wait_random(3))
 
