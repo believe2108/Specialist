@@ -19,4 +19,4 @@ if __name__ == "__main__":
     print('Результат:')
     for result in results:
         print(result)
-    print(f'Время выполнение заняло: {end-start:.2f} c.')
+    print(f'Время выполнения заняло: {end-start:.2f} c.')

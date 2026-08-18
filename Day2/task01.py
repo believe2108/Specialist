@@ -17,4 +17,4 @@ if __name__ == "__main__":
     start = time.perf_counter()
     asyncio.run(main())
     end = time.perf_counter()
-    print(f'Время выполнение заняло: {end-start:.2f} c.')
+    print(f'Время выполнения заняло: {end-start:.2f} c.')
